@@ -1,0 +1,29 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@600&display=swap');
+
+h1 {
+    color: rgba(223, 230, 233,1.0);
+    font-family: 'Work Sans', sans-serif;
+}
+
+label, input {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:700;
+}
+
+body {
+    background-color: rgba(45, 52, 54,1.0);
+}
+
+form {
+    background-color: rgba(255, 234, 167,0.5);
+}
+
+.form-control-plaintext {
+    border: solid black;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+.form-control-plaintext:hover, .form-control-plaintext:focus{
+    opacity: 1;
+}
